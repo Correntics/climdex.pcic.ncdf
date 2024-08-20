@@ -288,7 +288,7 @@ get.climdex.functions <- function(vars.list, fclimdex.compatible=TRUE) {
 #'
 #' @export
 get.climdex.variable.metadata <- function(vars.list, template.filename) {
-  all.data <- data.frame(long.name=c("Number of Frost Days", "Number of Summer Days", "Number of Days when Daily Maximum Temperature is Above 35 degrees Celsius", "Number of Days when Daily Maximum Temperature is Above 35 degrees Celsius", "Number of Icing Days", "Number of Tropical Nights", "Growing Season Length",
+  all.data <- data.frame(long.name=c("Number of Frost Days", "Number of Summer Days", "Number of Days when Daily Maximum Temperature is Above 35 degrees Celsius", "Number of Icing Days", "Number of Tropical Nights", "Growing Season Length",
                           "Monthly Maximum of Daily Maximum Temperature", "Monthly Maximum of Daily Minimum Temperature",
                           "Monthly Minimum of Daily Maximum Temperature", "Monthly Minimum of Daily Minimum Temperature",
                           "Percentage of Days when Daily Minimum Temperature is Below the 10th Percentile", "Percentage of Days when Daily Maximum Temperature is Below the 10th Percentile",
